@@ -11,11 +11,15 @@ public class StackClass {
 		linkedList.add(node);
 	}
 
-	public void printStack() {
-		linkedList.printNodes();
-	}
-
 	public INode peak() {
 		return linkedList.head;
+	}
+
+	public INode pop() {
+		return linkedList.pop();
+	}
+
+	public void printStack() {
+		linkedList.printNodes();
 	}
 }
